@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    background-color: black;
+
+}
+nav{
+    background: transparent;
+}
+
+label{
+    color: white;
+    font-size: 100px;
+    padding: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+   
+}
+label{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fafafa, #000);
+    background-repeat: repeat;
+    background-size: 90%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    1% {
+      background-position: -900%;
+    }
+    100% {
+      background-position: 900%;
+    }
+    
+    
+
+}
+
+
+
+
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background:  rgba(61, 240, 6, 0.796);
+    transition: 0.7s;
+}
+div{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+ 
+}
+
+.hithere{
+    color: rgb(61, 240, 6);
+} 
+
+.iam{
+    color: rgb(61, 240, 6);
+    
+}.web{
+    color: rgb(253, 253, 253);
+    font-size: 60px;
+}
+img{
+    width: 400px;
+    margin-left: 60%;
+    margin-top: -70%;
+}
+
+.icon{
+    padding: 0;
+    margin: 100px;
+    font-size: 200px;
+    margin-right: 10px;
+}
+
+.icon i{
+    margin: 0px;
+    padding: 60px;
+    width: 300PX;
+    border-radius: 50px;
+    animation: animate 4s linear infinite;
+    animation-name: none;
+    animation-duration: 4s;
+
+}
+.fa-whatsapp{ 
+    color: white;
+    background-color: rgba(29, 223, 11, 0.84);
+    width: 50px;
+    height: 300px;
+}
+.fa-facebook{
+    color: white;
+    background-color: rgba(11, 89, 255, 0.84);
+    width: 50px;
+    height: 300px;
+
+}
+.fa-linkedin{
+    color: white;
+    background-color: rgba(11, 89, 255, 0.84);
+    width: 50px;
+    height: 300px;
+
+}
