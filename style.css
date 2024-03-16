@@ -30,23 +30,6 @@ label{
     font-size: 4em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fafafa, #000);
-    background-repeat: repeat;
-    background-size: 90%;
-    animation: animate 4s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  }
-  
-  @keyframes animate {
-    1% {
-      background-position: -900%;
-    }
-    100% {
-      background-position: 900%;
-    }
-    
-    
 
 }
 
